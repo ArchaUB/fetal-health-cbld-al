@@ -1,0 +1,19 @@
+\multirow{4}{*}{XGBoost} & Base method & 94.47 & 88.25 & 420 & 88.57 & 81.36 & 420\\
+ & CBLD-AL (C1+C2) & 94.43 & 89.29$^{\ast\ast}$ & 420 & 88.80$^{\ast}$ & 83.48$^{\ast\ast}$ & 420\\
+ & CBLD-AL (C1+C2+C3) & 94.45 & 89.18$^{\ast\ast}$ & 363 & 88.54 & 82.99$^{\ast\ast}$ & 394\\
+ & Supervised, full pool & 94.42 & 87.93 & 1078 & 88.94 & 81.46 & 1078\\
+\midrule
+\multirow{4}{*}{LightGBM} & Base method & 94.38 & 87.90 & 420 & 88.76 & 81.58 & 420\\
+ & CBLD-AL (C1+C2) & 94.36 & 89.10$^{\ast\ast}$ & 420 & 88.94 & 83.02$^{\ast\ast}$ & 420\\
+ & CBLD-AL (C1+C2+C3) & 94.37 & 88.91$^{\ast\ast}$ & 380 & 88.89 & 83.05$^{\ast\ast}$ & 403\\
+ & Supervised, full pool & 94.43 & 87.92 & 1078 & 89.12 & 81.84 & 1078\\
+\midrule
+\multirow{4}{*}{CatBoost} & Base method & 93.50 & 85.45 & 420 & 87.69 & 78.65 & 420\\
+ & CBLD-AL (C1+C2) & 93.02$^{\dagger\dagger}$ & 89.72$^{\ast\ast}$ & 420 & 85.72$^{\dagger\dagger}$ & 84.61$^{\ast\ast}$ & 420\\
+ & CBLD-AL (C1+C2+C3) & 93.01$^{\dagger\dagger}$ & 89.56$^{\ast\ast}$ & 345 & 85.59$^{\dagger\dagger}$ & 84.44$^{\ast\ast}$ & 390\\
+ & Supervised, full pool & 92.88 & 84.42 & 1078 & 86.71 & 77.05 & 1078\\
+\midrule
+\multirow{4}{*}{Random forest} & Base method & 93.99 & 87.27 & 420 & 89.12 & 82.35 & 420\\
+ & CBLD-AL (C1+C2) & 93.87 & 88.77$^{\ast\ast}$ & 420 & 88.51$^{\dagger\dagger}$ & 85.15$^{\ast\ast}$ & 420\\
+ & CBLD-AL (C1+C2+C3) & 93.81 & 88.76$^{\ast\ast}$ & 351 & 88.17$^{\dagger\dagger}$ & 84.54$^{\ast\ast}$ & 385\\
+ & Supervised, full pool & 93.54 & 86.66 & 1078 & 88.84 & 82.17 & 1078\\
